@@ -3,9 +3,8 @@ import React from 'react'
 
 import colors from '../config/colors'
 import Screen from '../components/Screen'
-import AppIcon from '../components/AppIcon'
-import ListItem from '../components/ListItem'
-import ListItemSeparator from '../components/ListItemSeparator'
+import Icon from '../components/Icon'
+import { ListItem, ListItemSeparator } from '../components/lists'
 
 const menuItems = [
   {
@@ -55,7 +54,7 @@ const MyAccountScreen = () => {
       <ListItem
         title='Log out'
         IconComponent={
-          <AppIcon 
+          <Icon 
             name='logout'
             backgroundColor='#ffe66d'
           />

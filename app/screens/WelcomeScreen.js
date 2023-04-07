@@ -1,7 +1,8 @@
 import React from 'react';
 import { Image, ImageBackground, StyleSheet, View, Text } from 'react-native';
+
 import colors from '../config/colors';
-import AppButton from '../components/AppButton';
+import Button from '../components/Button';
 
 function WelcomeScreen(props) {
   const tagLine = 'Sell What You Don\'t Need.';
@@ -19,8 +20,8 @@ function WelcomeScreen(props) {
         <Text style={styles.tagline}>{tagLine}</Text>
       </View>
       <View style={styles.buttonsContainer}>
-        <AppButton color={colors.primary} title='login' onPress={() => console.log('Tapped')}/>
-        <AppButton color={colors.secondary} title='register' onPress={() => console.log('Tapped reg')}/>
+        <Button color={colors.primary} title='login' onPress={() => console.log('Tapped')}/>
+        <Button color={colors.secondary} title='register' onPress={() => console.log('Tapped reg')}/>
       </View>
     </ImageBackground>
   );

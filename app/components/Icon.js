@@ -1,9 +1,10 @@
-import { View, StyleSheet } from 'react-native'
-import {MaterialCommunityIcons } from '@expo/vector-icons'
 import React from 'react'
+import { View } from 'react-native'
+import {MaterialCommunityIcons } from '@expo/vector-icons'
+
 import colors from '../config/colors'
 
-const icon = ({ 
+const Icon = ({ 
   name, 
   size = 40, 
   backgroundColor = 'black', 
@@ -37,4 +38,4 @@ const icon = ({
 //   marginRight: 10,
 // })
 
-export default icon
+export default Icon
