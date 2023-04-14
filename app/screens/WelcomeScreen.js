@@ -4,7 +4,7 @@ import { Image, ImageBackground, StyleSheet, View, Text } from 'react-native';
 import colors from '../config/colors';
 import Button from '../components/Button';
 
-function WelcomeScreen(props) {
+function WelcomeScreen({ navigation }) {
   const tagLine = 'Sell What You Don\'t Need.';
   return (
     <ImageBackground 
@@ -20,8 +20,8 @@ function WelcomeScreen(props) {
         <Text style={styles.tagline}>{tagLine}</Text>
       </View>
       <View style={styles.buttonsContainer}>
-        <Button color={colors.primary} title='login' onPress={() => console.log('Tapped')}/>
-        <Button color={colors.secondary} title='register' onPress={() => console.log('Tapped reg')}/>
+        <Button color={colors.primary} title='login' onPress={() => navigation.navigate('Login')}/>
+        <Button color={colors.secondary} title='register' onPress={() => navigation.navigate('Register')}/>
       </View>
     </ImageBackground>
   );

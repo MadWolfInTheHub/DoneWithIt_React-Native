@@ -10,7 +10,7 @@ import {
   FormPicker
 } from '../components/forms'
 import CategoryPickerItem from '../components/CategoryPickerItem'
-import FormImagePicker from '../components/FormImagePicker'
+import { FormImagePicker } from '../components/images'
 import useLocation from '../hooks/useLocation'
 
 const categories = [
