@@ -7,7 +7,7 @@ import Button from '../components/Button';
 function WelcomeScreen({ navigation }) {
   const tagLine = 'Sell What You Don\'t Need.';
   return (
-    <ImageBackground 
+    <ImageBackground
       source={require('../assets/background.jpg')}
       style={styles.background}
       blurRadius={10}

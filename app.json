@@ -1,4 +1,5 @@
 {
+  "jsEngine": "hermes",
   "expo": {
     "name": "DoneWithIt",
     "slug": "DoneWithIt",
@@ -8,15 +9,16 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./app/assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.myfirstapponiphone"
+      "bundleIdentifier": "com.myfirstapponiphone",
+      "jsEngine": "jsc"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,7 +34,19 @@
     "extra": {
       "eas": {
         "projectId": "70d6daea-c4bf-4f95-adcc-3c89de1edd02"
+      },
+      "bugsnag": {
+        "apiKey": "b62138044cb2b73f51e42a58b937e0ca"
       }
+    },
+    "plugins": [
+      "@bugsnag/plugin-expo-eas-sourcemaps"
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/70d6daea-c4bf-4f95-adcc-3c89de1edd02"
     }
   },
   "name": "donewithit"
