@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
+import 'react-native-gesture-handler';
 
 import navigationTheme from './app/components/navigation/navigationTheme';
 import AppNavigator from './app/components/navigation/AppNavigator';

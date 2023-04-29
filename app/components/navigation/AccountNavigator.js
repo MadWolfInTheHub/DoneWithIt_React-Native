@@ -14,7 +14,7 @@ const AccountNavigator = () => (
     }}
   >
     <Stack.Screen
-      name={routes.ACCOUNT}
+      name="account"
       component={MyAccountScreen}
       options={{ 
         headerShown: false,
