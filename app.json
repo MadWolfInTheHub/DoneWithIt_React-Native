@@ -19,7 +19,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.myfirstapponiphone",
       "jsEngine": "jsc",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.1"
     },
     "android": {
       "adaptiveIcon": {
