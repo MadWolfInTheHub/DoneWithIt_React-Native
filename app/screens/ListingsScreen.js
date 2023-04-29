@@ -22,10 +22,6 @@ const ListingsScreen = ({ navigation }) => {
     <>
       <ActivityIndicator visible={getListingsApi.loading}/>
       <Screen style={styles.screen}>
-        {/* {getListingsApi.error && <>
-          <AppText>Couldn't retrieve the listings</AppText>
-          <Button title="retry" onPress={getListingsApi.request()}/>
-        </>} */}
         <FlatList
         data={getListingsApi.data}
         keyExtractor={listing => listing.id.toString()}
