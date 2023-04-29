@@ -1,7 +1,7 @@
 {
   "jsEngine": "hermes",
   "expo": {
-    "name": "DoneWithIt",
+    "name": "Don't need it? Sell it!",
     "slug": "DoneWithIt",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +18,8 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.myfirstapponiphone",
-      "jsEngine": "jsc"
+      "jsEngine": "jsc",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
